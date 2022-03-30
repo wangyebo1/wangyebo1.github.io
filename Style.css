@@ -1,0 +1,58 @@
+strong { color: red; }
+.carrot { color: orange; }
+.spinach { color: green; }
+#first { font-style: italic; font-size: large; color: rgb(106, 153, 194);}
+.little  {color: rgb(176, 209, 238);font-size: medium;}
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    width: 100%;
+    height: 100vh;
+    background: url('image/2.jpg') no-repeat;
+    position: fixed;
+}
+.middle{
+    width: 100%;
+    height: 100%;
+    background: rgba(155, 131, 131, 0.6);
+}
+.front{
+    width: 200px;
+    height: 70px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:600px;
+    width: 90px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
